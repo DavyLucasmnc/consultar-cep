@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de Endereço</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="form-container">
+            <h2 class="subtitle">Buscar Endereço</h2>
+            <form id="formConsultaCep">
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep" placeholder="Digite o CEP"><br><br>
+        
+                <button type="submit" id="buscarEndereco">Buscar Endereço</button><br><br>
+        
+                <label for="logradouro">Logradouro:</label>
+                <input type="text" id="logradouro" name="logradouro" readonly><br><br>
+        
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro" name="bairro" readonly><br><br>
+        
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade" readonly><br><br>
+        
+                <label for="estado">Estado:</label>
+                <input type="text" id="estado" name="estado" readonly><br><br>
+            </form>
+          </div>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>
